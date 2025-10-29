@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Installing BTor..."
+curl -fsSL https://raw.githubusercontent.com/linux-brat/BTor/main/btor.sh -o /tmp/btor.sh \
+  && chmod +x /tmp/btor.sh \
+  && /tmp/btor.sh install
+
+echo ""
+read -p "Press Enter to continue..."
